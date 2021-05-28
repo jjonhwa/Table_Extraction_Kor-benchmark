@@ -51,7 +51,7 @@ OpenCV를 활용하여 추출된 Table로부터 Rectangle을 인식하여 Cell�
 **NOTE :** Naver OCR는 유료 프로그램(각 이미지당 3원)이며 **Service Key**, **URL**을 clova ai에서 내려받아 사용할 수 있다. (아래 링크 참조)
 
 Naver OCR을 활용할 경우 거의 대부분의 텍스트들이 알맞게 추출이 되었으며 더불어 json파일의 경우 좌표를 얻을 수 있고 이를 데이터프레임을 만드는 데에 활용하도록 한다.
-Naver OCR에 대한 자세한 설명은 Clova AI Research의 github [여기](https://github.com/clovaai/deep-text-recognition-benchmark), Clova ai의 OCR프로그램 사용에 대한 자세한 설명은 [여기](https://guide.ncloud-docs.com/docs/ko/ocr-ocr-1-1)에서 확인할 수 있다.(참고 - API 자동 호출을 위해서는 앞 링크에서 CLOVA OCR API 연동가이드, CLOVA OCR API 호출 가이드도 필독하록 하자.)
+Naver OCR에 대한 자세한 설명은 Clova AI Research의 github [여기](https://github.com/clovaai/deep-text-recognition-benchmark), Clova ai의 OCR프로그램 사용에 대한 자세한 설명은 [여기](https://guide.ncloud-docs.com/docs/ko/ocr-ocr-1-1)에서 확인할 수 있다.(참고 - API 자동 호출을 위해서는 앞 링크에서 CLOVA OCR API 연동가이드, CLOVA OCR API 호출 가이드도 필독하도록 하자.)
 
 <https://github.com/clovaai/deep-text-recognition-benchmark>  
 <https://www.ncloud.com/product/aiService/ocr>  
