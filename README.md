@@ -48,9 +48,15 @@ OpenCV를 활용하여 추출된 Table로부터 Rectangle을 인식하여 Cell�
 ![Cell_Detection_5](https://user-images.githubusercontent.com/53552847/119608171-7c6a9700-be30-11eb-8899-23bdbc03b392.PNG)
 
 ### 3. Naver OCR를 활용한 Text Extraction
-**NOTE :** 
-Naver OCR을 활용할 경우 거의 대부분의 텍스트들이 알맞게 추출이 되었으며 더불의 json파일의 경우 좌표를 얻을 수 있고 이를 데이터프레임을 만드는 데에 활용하도록 한다.
-Naver OCR에 대한 설명은 Clova AI Research의 github에서 확인할 수 있다. <https://github.com/clovaai/deep-text-recognition-benchmark>
+**NOTE :** Naver OCR는 유료 프로그램(각 이미지당 3원)이며 **Service Key**, **URL**을 clova ai에서 내려받아 사용할 수 있다. (아래 링크 참조)
+
+Naver OCR을 활용할 경우 거의 대부분의 텍스트들이 알맞게 추출이 되었으며 더불어 json파일의 경우 좌표를 얻을 수 있고 이를 데이터프레임을 만드는 데에 활용하도록 한다.
+Naver OCR에 대한 자세한 설명은 Clova AI Research의 github [여기](https://github.com/clovaai/deep-text-recognition-benchmark), Clova ai의 OCR프로그램 사용에 대한 자세한 설명은 [여기](https://guide.ncloud-docs.com/docs/ko/ocr-ocr-1-1)에서 확인할 수 있다.(참고 - API 자동 호출을 위해서는 앞 링크에서 CLOVA OCR API 연동가이드, CLOVA OCR API 호출 가이드도 필독하다록 하자.)
+
+<https://github.com/clovaai/deep-text-recognition-benchmark>
+<https://www.ncloud.com/product/aiService/ocr>
+<https://guide.ncloud-docs.com/docs/ko/ocr-ocr-1-1>
+
 ### 4. DataFrame 만들기
 OpenCV로 부터 얻은 Box값과 Naver OCR로 얻은 좌표값을 활용하여 알맞은 데이터프레임 형태로 만들어준다.
 
@@ -61,7 +67,6 @@ OpenCV로 부터 얻은 Box값과 Naver OCR로 얻은 좌표값을 활용하여 
 |![Cell_Detection_3](https://user-images.githubusercontent.com/53552847/119606899-57752480-be2e-11eb-8ee7-10f3c19ca6da.PNG)|![Output_Detection_3](https://user-images.githubusercontent.com/53552847/119608035-42999080-be30-11eb-93ef-8c6bf872b387.PNG)|
 |![Cell_Detection_4](https://user-images.githubusercontent.com/53552847/119606901-580dbb00-be2e-11eb-8c27-efff38a0a5c0.PNG)|![Output_Detection_4](https://user-images.githubusercontent.com/53552847/119608036-42999080-be30-11eb-8b8c-36f49a7d1fe8.PNG)|
 |![Cell_Detection_5](https://user-images.githubusercontent.com/53552847/119608171-7c6a9700-be30-11eb-8899-23bdbc03b392.PNG)|![Output_Detection_5](https://user-images.githubusercontent.com/53552847/119608038-43322700-be30-11eb-8612-52ed4a417ad3.PNG)|
-
 ### Demo
-업로드 예정
-
+**Note :** 본 Demo는 Naver OCR 프로그램(유료)을 활용한 것으로 본인의 URL 및 Service key를 입력해야 실행할 수 있습니다.
+[![Open In Colab](https://colab.research.google.com/drive/1FWrEKTMyGGPTDw-Mfh0qSXFhKLWOqGj9?authuser=1#scrollTo=shOdp0SZKzjZ)]
