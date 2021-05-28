@@ -6,7 +6,7 @@
 
 ## 진행과정
 모든 과정은 Colab에서 진행하였습니다. (GPU 환경)
-1. CascadeTabNet을 활용한 Table Detection
+[1. CascadeTabNet을 활용한 Table Detection](1.-CascadeTabNet을-활용한-Table-Detection)
 2. OpenCV를 활용한 Cell Detection
 3. Naver OCR를 활용한 Text Extraction
 4. DataFrame 만들기
@@ -69,5 +69,5 @@ OpenCV로 부터 얻은 Box값과 Naver OCR로 얻은 좌표값을 활용하여 
 |![Cell_Detection_5](https://user-images.githubusercontent.com/53552847/119608171-7c6a9700-be30-11eb-8899-23bdbc03b392.PNG)|![Output_Detection_5](https://user-images.githubusercontent.com/53552847/119608038-43322700-be30-11eb-8612-52ed4a417ad3.PNG)|
 ### Demo
 **Note :** 본 Demo는 Naver OCR 프로그램(유료)을 활용한 것으로 본인의 URL 및 Service key를 입력해야 실행할 수 있습니다.
-
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1FWrEKTMyGGPTDw-Mfh0qSXFhKLWOqGj9?authuser=1#scrollTo=shOdp0SZKzjZ)
+
