@@ -5,12 +5,12 @@
 전 과정은 PDF 원하는 페이지 추출 > PDF to Image > Image Table Detection > Image Cell Dectection > Text Extraction > Make DataFrame 순으로 진행하였으며 현 git에는 Table Extraction에 대한 과정만 담았다.
 
 ## 진행과정
-모든 과정은 Colab에서 진행하였습니다. (GPU 환경)  
-[1. CascadeTabNet을 활용한 Table Detection](#1.-CascadeTabNet을-활용한-Table-Detection)  
-[2. OpenCV를 활용한 Cell Detection](#2.-opencv를-활용한-cell-detection)  
-[3. Naver OCR를 활용한 Text Extraction](#3.-naver-ocr를-활용한-text-extraction)  
-[4. DataFrame 만들기](#4.-dataframe-만들기)  
-[5. Demo](#5.-demo)  
+모든 과정은 Colab에서 진행하였습니다. (GPU 환경)
+[1. CascadeTabNet을 활용한 Table Detection](#1-cascadetabnet을-활용한-table-detection)
+[2. OpenCV를 활용한 Cell Detection](#2-opencv를-활용한-cell-detection)
+[3. Naver OCR를 활용한 Text Extraction](#3-naver-ocr를-활용한-text-extraction)
+[4. DataFrame 만들기](#4-dataframe-만들기)
+[5. Demo](#5-demo)
 
 ## Setup
 TableDetection에 활용할 모델은 Pytorch based MMdetection framework(Version 1.2)에서 개발되었으며 이는 CascadeTabNet을 인용하였습니다. <https://github.com/DevashishPrasad/CascadeTabNet> 
