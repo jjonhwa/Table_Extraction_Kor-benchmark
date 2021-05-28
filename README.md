@@ -13,7 +13,7 @@
 [5. Demo](#5-demo)  
 
 ## Setup
-TableDetection에 활용할 모델은 Pytorch based MMdetection framework(Version 1.2)에서 개발되었으며 이는 CascadeTabNet을 인용하였습니다. <https://github.com/DevashishPrasad/CascadeTabNet> 
+TableDetection에 활용할 모델은 Pytorch based MMdetection framework(Version 1.2)에서 개발되었으며 이는 CascadeTabNet을 인용하였습니다. <https://github.com/DevashishPrasad/CascadeTabNet>  
 더불어, MMdetection(Version 1.2) 및 MMcv(Version 0.4.3)를 참고 및 수정하여 진행하였습니다. <https://github.com/open-mmlab/mmdetection>, <https://github.com/open-mmlab/mmcv>
 ```
 !pip install -q mmcv terminaltables
