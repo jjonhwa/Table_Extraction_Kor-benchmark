@@ -6,7 +6,7 @@
 
 ## 진행과정
 모든 과정은 Colab에서 진행하였습니다. (GPU 환경)
-[1. CascadeTabNet을 활용한 Table Detection](1.-cascadeTabNet을-활용한-table-detection)
+[1. CascadeTabNet을 활용한 Table Detection](#1.-cascadetabnet을-활용한-table-detection)
 [2. OpenCV를 활용한 Cell Detection](#2.-opencv를-활용한-cell-detection)
 [3. Naver OCR를 활용한 Text Extraction]
 2. OpenCV를 활용한 Cell Detection
@@ -35,12 +35,12 @@ Table Detection의 경우 `PyTorch = 1.4.0`, `Torchvision = 0.5.0`, `Cuda = 10.0
 
 **Note :** 전 과정은 Colab에서 실시하였으며 Colab의 경우 cv2.imshow가 `from google.colab.patches import cv2_imshow`로 변경되었다.
 
-### 1. CascadeTabNet을 활용한 Table Detection
+## 1. CascadeTabNet을 활용한 Table Detection
 CascadeTabNet의 경우 Structure Recognition 및 Cell Recognition의 기능까지 탑재되어 있으나 현 과정에서는 인식률의 문제 때문에(특히 Cell) Table Detection만 사용하기 위하여 코드를 수정하여 진행하였다.
 
 ![Table_Detection](https://user-images.githubusercontent.com/53552847/119606010-be91d980-be2c-11eb-8112-2579ec0c4e7b.PNG)
 
-### 2. OpenCV를 활용한 Cell Detection
+## 2. OpenCV를 활용한 Cell Detection
 OpenCV를 활용하여 추출된 Table로부터 Rectangle을 인식하여 Cell로 인식하도록 하였으며 이에 대한 Box값 및 Rectangle Drawing을 하였다.
 
 ![Cell_Detection_1](https://user-images.githubusercontent.com/53552847/119606891-53490700-be2e-11eb-97de-18bd4963d719.PNG)
